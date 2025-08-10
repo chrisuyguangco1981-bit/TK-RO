@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #111;
+  color: white;
+}
+
+header {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2em;
+  color: red;
+}
+
+.champions-grid, .roster-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.champ-card, .wrestler-card {
+  background-color: #222;
+  padding: 15px;
+  border: 2px solid red;
+  text-align: center;
+  width: 200px;
+}
+
+.champ-card img, .wrestler-card img {
+  width: 100%;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+}
